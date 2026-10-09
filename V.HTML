@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> nova card | Premium Shopping</title>
+
+    <link rel="stylesheet" href="V.CSS">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./payment.html">
+</head>
+
+<body>
+
+
+<header>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <a href="nova.html">
+            <h2>NovaCart</h2>
+        </a>
+    </div>
+
+    <ul class="menu">
+
+        <li><a href="nova.html">Home</a></li>
+
+        <li><a href="nova.html">Shop</a></li>
+
+        <li><a href="nova.html">Categories</a></li>
+
+        <li><a href="nova.html">Offers</a></li>
+
+        <li><a href="nova.html">About</a></li>
+
+        <li><a href="nova.html">Contact</a></li>
+
+    </ul>
+
+    <div class="nav-icons">
+
+        <a href="nova.html">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+
+        <a href="nova.html">
+            <i class="fa-regular fa-heart"></i>
+        </a>
+
+        <a href="nova.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+        <a href="nova.html">
+            <i class="fa-regular fa-user"></i>
+        </a>
+
+    </div>
+
+    <div class="nav-icons">
+
+        <a href="nova.html">
+            <i class="fa-solid fa-bars menu-btn"></i>
+        </a>
+
+        <a href="nova.html">
+            <i class="fa-solid fa-moon dark-btn"></i>
+        </a>
+
+        <a href="nova.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+    </div>
+
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <h1>Discover The Future Of Shopping</h1>
+
+        <p>
+            Buy Fashion, Electronics, Shoes, Watches,
+            Mobiles and Lifestyle Products with Amazing Offers.
+        </p>
+
+        <button class="shop-btn"
+        onclick="window.location.href='nova.html'">
+            Shop Now
+        </button>
+
+    </div>
+
+    <div class="hero-right">
+
+        <a href="nova.html">
+            <img src="./shopping.jpg" alt="Banner">
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search">
+
+<h2>Search Products</h2>
+
+<div class="search-box">
+
+<input type="text"
+placeholder="Search Products...">
+
+<button onclick="window.location.href='nova.html'">
+
+<i class="fa-solid fa-search"></i>
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="category">
+
+<h2>Popular Categories</h2>
+
+<div class="category-container">
+
+<div class="category-card">
+<a href="nova.html">
+<img src="./fashion.png" alt="Fashion">
+<h3>Fashion</h3>
+</a>
+</div>
+
+<div class="category-card">
+<a href="nova.html">
+<img src="./Electronics.png" alt="Electronics">
+<h3>Electronics</h3>
+</a>
+</div>
+
+<div class="category-card">
+<a href="nova.html">
+<img src="./laptops 1.png" alt="Laptop">
+<h3>Laptops</h3>
+</a>
+</div>
+
+<div class="category-card">
+<a href="nova.html">
+<img src="./shoes 1.png" alt="Shoes">
+<h3>Shoes</h3>
+</a>
+</div>
+
+</div>
+
+</section>
+<!-- ================= TRENDING PRODUCTS ================= -->
+
+<section class="products">
+
+    <h2>Trending Products</h2>
+
+    <div class="product-container">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+
+            <span class="sale">20% OFF</span>
+
+            <a href="nova.html">
+                <img src="./wireless headphone.png" alt="Headphone">
+                <h3>Wireless Headphone</h3>
+            </a>
+
+            <p class="price">$120</p>
+
+            <button onclick="addToCart('Wireless Headphone',120,'./')">
+            Add To Cart
+            </button>
+
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+
+            <span class="sale">NEW</span>
+
+            <a href="nova.html">
+                <img src="./smart watch colllection.png" alt="Watch">
+                <h3>Smart Watch</h3>
+            </a>
+
+            <p class="price">$90</p>
+
+            <button onclick="window.location.href='nova.html'">
+                Add To Cart
+            </button>
+
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+
+            <span class="sale">HOT</span>
+
+            <a href="nova.html">
+                <img src="./shoes collection.jpg" alt="Shoes">
+                <h3>Running Shoes</h3>
+            </a>
+
+            <p class="price">$150</p>
+
+            <button onclick="window.location.href='nova.html'">
+                Add To Cart
+            </button>
+
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+
+            <span class="sale">SALE</span>
+
+            <a href="nova.html">
+                <img src="./gamming.png" alt="Gaming Accessories">
+                <h3>Gaming Accessories</h3>
+            </a>
+
+            <p class="price">$45</p>
+
+            <button onclick="window.location.href='nova.html'">
+                Add To Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= OFFER SECTION ================= -->
+
+<section class="offer">
+
+    <div class="offer-content">
+
+        <h1> Mega Sale 50% OFF</h1>
+
+        <p>
+            Grab your favourite products at unbeatable prices.
+            Limited Time Offer.
+        </p>
+
+        <button onclick="window.location.href='nova.html'">
+            Explore Offers
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="why">
+
+    <h2>Why Choose NovaCart?</h2>
+
+    <div class="why-container">
+
+        <div class="why-card">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Free delivery across India.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Secure Payment</h3>
+            <p>100% safe online payment.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-headset"></i>
+            <h3>24×7 Support</h3>
+            <p>Always available for customers.</p>
+        </div>
+
+        <div class="why-card">
+            <i class="fa-solid fa-rotate-left"></i>
+            <h3>Easy Return</h3>
+            <p>7-day easy return policy.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+
+    <h2>Subscribe Our Newsletter</h2>
+
+    <p>
+        Get latest offers, new arrivals and exclusive discounts.
+    </p>
+
+    <div class="newsletter-box">
+
+        <input type="email"
+        placeholder="Enter your Email">
+
+        <button onclick="window.location.href='nova.html'">
+            Subscribe
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-container">
+
+        <!-- Logo -->
+
+        <div class="footer-box">
+
+            <a href="index.html" style="text-decoration:none; color:inherit;">
+                <h2>NovaCart</h2>
+            </a>
+
+            <p>
+                India's Premium Online Shopping Platform.
+                Shop Smart, Shop Fast.
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="nova.html">Home</a>
+
+            <a href="nova.html">Shop</a>
+
+            <a href="nova.html">Categories</a>
+
+            <a href="nova.html">Offers</a>
+
+            <a href="nova.html">Contact</a>
+
+        </div>
+
+        <!-- Customer Care -->
+
+        <div class="footer-box">
+
+            <h3>Customer Care</h3>
+
+            <a href="nova.html">Help Center</a>
+
+            <a href="nova.html">Track Order</a>
+
+            <a href="nova.html">Return Policy</a>
+
+            <a href="nova.html">Privacy Policy</a>
+
+            <a href="nova.html">Terms & Conditions</a>
+
+        </div>
+
+        <!-- Contact -->
+
+        <div class="footer-box">
+
+            <h3>Contact Us</h3>
+
+            <p><i class="fa-solid fa-location-dot"></i> Pune, Maharashtra</p>
+
+            <p><i class="fa-solid fa-phone"></i> +91 9876543210</p>
+
+            <p><i class="fa-solid fa-envelope"></i> novacart@gmail.com</p>
+
+            <div class="social">
+
+                <a href="nova.html">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="nova.html">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="nova.html">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="nova.html">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="nova.html">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<!-- ================= COPYRIGHT ================= -->
+
+<section class="copyright">
+
+    <p>
+         | Designed by Vivek Gaikwad | 
+    </p>
+
+</section>
+
+</body>
+</html>

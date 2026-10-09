@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Billing & Payment</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+padding:40px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px;
+}
+
+.billing,
+.payment{
+background:#fff;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+h2{
+color:#2563eb;
+margin-bottom:20px;
+}
+
+.input-box{
+margin-bottom:15px;
+}
+
+.input-box label{
+display:block;
+margin-bottom:6px;
+font-weight:bold;
+}
+
+.input-box input,
+.input-box textarea,
+.input-box select{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.payment label{
+display:block;
+margin:12px 0;
+font-size:17px;
+}
+
+.total{
+margin-top:20px;
+font-size:22px;
+font-weight:bold;
+color:#2563eb;
+}
+
+button{
+width:100%;
+margin-top:20px;
+padding:15px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:8px;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#f59e0b;
+}
+
+@media(max-width:768px){
+
+.container{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="billing">
+
+<h2>Billing Details</h2>
+
+<div class="input-box">
+<label>Full Name</label>
+<input type="text" placeholder="Enter Full Name">
+</div>
+
+<div class="input-box">
+<label>Email</label>
+<input type="email" placeholder="Enter Email">
+</div>
+
+<div class="input-box">
+<label>Mobile Number</label>
+<input type="text" placeholder="Enter Mobile Number">
+</div>
+
+<div class="input-box">
+<label>Address</label>
+<textarea rows="4" placeholder="Enter Address"></textarea>
+</div>
+
+<div class="input-box">
+<label>City</label>
+<input type="text" placeholder="Enter City">
+</div>
+
+<div class="input-box">
+<label>Pincode</label>
+<input type="text" placeholder="Enter Pincode">
+</div>
+
+</div>
+
+<div class="payment">
+
+<h2>Payment Method</h2>
+
+<label>
+<input type="radio" name="pay">
+ Cash On Delivery
+</label>
+
+<label>
+<input type="radio" name="pay">
+ UPI Payment
+</label>
+
+<label>
+<input type="radio" name="pay">
+ Credit Card
+</label>
+
+<label>
+<input type="radio" name="pay">
+ Debit Card
+</label>
+
+<label>
+<input type="radio" name="pay">
+ Net Banking
+</label>
+
+<hr style="margin:20px 0;">
+
+<p>Product Price : <b>$120</b></p>
+<p>Delivery Charge : <b>$10</b></p>
+<p>Discount : <b>-$20</b></p>
+
+<div class="total">
+Total : $110
+</div>
+
+<button onclick="window.location.href='payment.html'">
+Proceed To Payment
+</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
